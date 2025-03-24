@@ -1,0 +1,13 @@
+prefix=/Users/anushaphullathi/Downloads/MlopsUsingAzureAWS/env
+exec_prefix=/Users/anushaphullathi/Downloads/MlopsUsingAzureAWS/env
+libdir=/Users/anushaphullathi/Downloads/MlopsUsingAzureAWS/env/lib
+sharedlibdir=/Users/anushaphullathi/Downloads/MlopsUsingAzureAWS/env/lib
+includedir=/Users/anushaphullathi/Downloads/MlopsUsingAzureAWS/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
