@@ -6,3 +6,4 @@ Author-email: anusha.hullathi@gmail.com
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: seaborn
+Requires-Dist: matplotlib
